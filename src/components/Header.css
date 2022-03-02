@@ -1,0 +1,32 @@
+/* div {
+    margin-left: 10px;
+} */
+
+.flex-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    column-gap: 21px;
+    justify-items: end;
+  
+}
+.face{
+    margin-left: 0px;
+    margin-right: 500px
+}
+.cusBtn{
+    border-radius: 5px;
+    padding: 8px ;
+    padding-bottom: 8px;
+}
+a {
+    text-decoration: none;
+}
+::placeholder{
+    padding-top: 38px ;
+    padding-bottom: 189px;
+    
+}
+.moveLeft{
+    margin-left: -100px;
+}
+
